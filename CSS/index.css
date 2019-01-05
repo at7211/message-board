@@ -1,0 +1,73 @@
+body {
+    font-family: 'Noto Sans';
+    font-weight: 400;
+    background-color: #fafafa;
+}
+
+.head {
+    margin: 100px auto 0 auto;
+    width: 600px;
+    font-size: 24px;
+    color: rgba(0, 0, 0, .68);
+    font-weight: 600;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nickname {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 1px;
+}
+
+.time {
+    margin-bottom: 4px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #464545;
+}
+
+textarea[name=content] {
+    margin: 10px 0;
+    padding:5px;
+    height: 100px;
+    border-style: none;
+    border-radius: 5px; 
+}
+
+
+.content {
+    margin: 30px auto;
+    padding: 15px;
+    width: 600px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .03);
+    background-color: white;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    text-align: left；
+}
+
+input[type="submit"] {
+    margin-top: 15px;
+    padding:5px;
+    border:0 none;
+    border-radius:3px;
+    height: 30px;
+    width: 60px;
+}
+
+
+.sub_content {
+    margin: 10px auto;
+    padding: 10px;
+    width: 500px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .03);
+    background-color: #e1e6df;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    text-align: left；
+}
